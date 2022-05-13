@@ -1,0 +1,165 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FE83E0;
+    text-decoration: underline;
+}
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style:italic;
+}
+
+.material {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+
+
+.canal {
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888);
+}
+
+.vinheta {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content:center;
+    
+}
+.canal-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.canal p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.aulas {
+    padding: 3em 0;
+    background: #888888;
+}
+
+
+
+.conteudo-aulas {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-aulas {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.item {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens::before {
+    content: "★";
+}
+
+.imagem-aulas {
+    width: 55%;
+    opacity: 1;
+    transform: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-aulas:hover{
+    opacity: 0.3;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+}
+
+footer { 
+    width: 100%;
+    text-align: center;
+    background: url("./assets/img/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.programador a {
+    color: #ffffff;    
+    text-decoration: none; 
+    font-size: 10px;   
+}
+
+
