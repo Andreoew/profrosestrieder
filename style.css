@@ -64,7 +64,7 @@ nav a:hover {
 }
 
 .principal em {
-    font-style:italic;
+    font-style: italic;
 }
 
 .material {
@@ -84,9 +84,10 @@ nav a:hover {
     width: 940px;
     margin: 0 auto;
     text-align: center;
-    justify-content:center;
-    
+    justify-content: center;
+
 }
+
 .canal-conteudo {
     width: 940px;
     margin: 0 auto;
@@ -134,7 +135,7 @@ nav a:hover {
     box-shadow: 10px 10px 10px 0 #000000;
 }
 
-.imagem-aulas:hover{
+.imagem-aulas:hover {
     opacity: 0.3;
 }
 
@@ -143,30 +144,61 @@ nav a:hover {
     margin: 2em auto;
 }
 
-footer { 
+footer {
     width: 100%;
     text-align: center;
     background: url("./assets/img/bg.jpg");
     padding: 40px 0;
 }
 
-.copyright{
+.copyright {
     color: #ffffff;
     font-size: 13px;
     margin: 20px;
 }
 
 .programador a {
-    color: #ffffff;    
-    text-decoration: none; 
-    font-size: 10px;   
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 10px;
 }
-.contato{
+
+.contato {
     display: flex;
     justify-content: flex-end;
     flex-wrap: nowrap;
     align-content: center;
     flex-direction: column;
-    align-items: center; 
-  }
+    align-items: center;
+}
 
+form {
+    width: 300px;
+}
+
+#form {
+    padding: auto;
+    margin: 50px;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label {
+    color: #fff;
+    margin-top: 10px;
+
+}
+
+button {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    #cartao {
+        width: 95%;
+    }
+}
