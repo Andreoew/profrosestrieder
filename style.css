@@ -173,7 +173,7 @@ footer {
     align-items: center;
 }
 .contato {
-    padding: 3em 0;
+    /* padding: 3em 0; */
     background: linear-gradient(#414040, #000000);
 }
 
@@ -183,7 +183,7 @@ form {
 
 #form {
     padding: auto;
-    margin: 50px;
+    
 }
 
 
