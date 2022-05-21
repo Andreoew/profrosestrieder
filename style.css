@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    margin:0;
 }
 
 header {
@@ -163,7 +164,7 @@ footer {
     font-size: 10px;
 }
 
-.contato {
+#contato {
     display: flex;
     justify-content: flex-end;
     flex-wrap: nowrap;
