@@ -21,6 +21,7 @@ $header = "From:rosestrieder.mat.br"."\r\n".
             
 if(mail($to,$subject,$body,$header)){
     echo("$name, O Email enviado com sucesso!");
+    header("Refresh: 5;url=índex.html");
     
 
 }else{
