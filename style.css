@@ -204,4 +204,11 @@ label {
 button {
     margin-top: 10px;
 }
-
+/* --------------page aulas */
+#nossas-aulas{
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    
+}
